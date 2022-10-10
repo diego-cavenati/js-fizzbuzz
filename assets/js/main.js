@@ -1,4 +1,4 @@
- Scrivi un programma che stampi in console i numeri da 1 a 100
+//Scrivi un programma che stampi in console i numeri da 1 a 100
 const rowElement = document.querySelector(".row");
 
 for (let i = 1; i <= 100; i++) {
