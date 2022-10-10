@@ -18,3 +18,14 @@ h1 {
     background-color: aqua; /* debug */
 }
 
+.fizzbuzz {
+    background-color: rgb(190, 18, 210);
+}
+
+.buzz {
+    background-color: yellow;
+}
+
+.fizz {
+    background-color: green;
+}

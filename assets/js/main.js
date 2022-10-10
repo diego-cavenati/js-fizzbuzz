@@ -7,21 +7,20 @@ for (let i = 1; i <= 100; i++) {
     
     if (i % 3 == 0 && i % 5 == 0) { // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
     
-    rowElement.innerHTML += `<div class="col square"> FizzBuzz </div>`;
+    rowElement.innerHTML += `<div class="col square fizzbuzz"> FizzBuzz </div>`;
 
     } else if (i % 3 == 0) { // Per i multipli di 3 stampi “Fizz” al posto del numero
 
-        rowElement.innerHTML += `<div class="col square"> Fizz </div>`;
+        rowElement.innerHTML += `<div class="col square fizz"> Fizz </div>`;
 
     } else if (i % 5 == 0) { // Per i multipli di 5 stampi “Buzz”
 
-        rowElement.innerHTML += `<div class="col square"> Buzz </div>`;
+        rowElement.innerHTML += `<div class="col square buzz"> Buzz </div>`;
 
     } else {
 
         rowElement.innerHTML += `<div class="col square"> ${i} </div>`;
     }   
-    
 
 };
 
