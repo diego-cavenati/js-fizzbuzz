@@ -14,10 +14,21 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 0.5rem;
     font-size: 1.3rem;
     color: black;
-    background-color: aqua;
+}
+
+.number, .fizzbuzz, .buzz, .fizz {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.number {
+    background-color: bisque;
 }
 
 .fizzbuzz {
