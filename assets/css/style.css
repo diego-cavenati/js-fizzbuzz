@@ -1,0 +1,20 @@
+/* main  */
+main {
+    background-color: blue;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    font-size: 1.3rem;
+    color: black;
+    background-color: aqua; /* debug */
+}
+
