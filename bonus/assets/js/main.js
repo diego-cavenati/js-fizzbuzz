@@ -6,7 +6,7 @@ for (let i = 1; i <= 100; i++) {
 
     // dichiaro div e gli aggiungo la sclasse square
     let div = document.createElement("div");
-    div.classList.add(`col`, `square`);
+    div.classList.add(`square`);
 
     let divChild = document.createElement("div");
 

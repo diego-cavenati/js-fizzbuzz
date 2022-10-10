@@ -17,6 +17,7 @@ h1 {
     padding: 0.5rem;
     font-size: 1.3rem;
     color: black;
+    width: calc(100% / 7 );
 }
 
 .number, .fizzbuzz, .buzz, .fizz {
