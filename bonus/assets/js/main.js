@@ -14,27 +14,27 @@ for (let i = 1; i <= 100; i++) {
     
     if (i % 3 == 0 && i % 5 == 0) { // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”
         divChild.append("FizzBuzz");
-        divChild.classList.add(`fizzbuzz`, `p-5`);
+        divChild.classList.add(`fizzbuzz`);
         div.append(divChild);
         rowElement.append(div);
 
     } else if (i % 3 == 0) { // Per i multipli di 3 stampi “Fizz” al posto del numero
         divChild.append("Fizz");
-        divChild.classList.add(`fizz`, `p-5`);
+        divChild.classList.add(`fizz`);
         div.append(divChild);
         rowElement.append(div);
 
     } else if (i % 5 == 0) { // Per i multipli di 5 stampi “Buzz”
 
         divChild.append("Buzz");
-        divChild.classList.add(`buzz`, `p-5`);
+        divChild.classList.add(`buzz`);
         div.append(divChild);
         rowElement.append(div);
 
     } else {
 
         divChild.append(`${i}`);
-        divChild.classList.add(`number`, `p-5`);
+        divChild.classList.add(`number`);
         div.append(divChild);
         rowElement.append(div);
 
