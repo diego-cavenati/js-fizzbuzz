@@ -33,7 +33,7 @@ for (let i = 1; i <= 100; i++) {
 
     // dichiaro div e gli aggiungo la sclasse square
     let div = document.createElement("div");
-    div.classList.add("square");
+    div.classList.add(`col`, `square`);
     let divChild = document.querySelector(".square");
 
     // prendo rowElement e gli aggiungo o il numero o fizz o buzz o fizzbuzz all'interno di un DIV con classe univoca square + classe personale nel caso di fixx, buzz e fizzbuzz
